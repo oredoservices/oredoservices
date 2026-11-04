@@ -1,0 +1,29 @@
+{
+  "name": "Oredo Service",
+  "short_name": "Oredo Service",
+  "lang": "en",
+  "dir": "ltr",
+  "start_url": "../../en/",
+  "scope": "../../",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "theme_color": "#268543",
+  "background_color": "#268543",
+  "display": "standalone"
+}

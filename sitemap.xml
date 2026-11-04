@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://oredo-app.github.io/oredo/ar/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://oredo-app.github.io/oredo/ar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oredo-app.github.io/oredo/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oredo-app.github.io/oredo/en/"/>
+  </url>
+  <url>
+    <loc>https://oredo-app.github.io/oredo/en/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://oredo-app.github.io/oredo/ar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oredo-app.github.io/oredo/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oredo-app.github.io/oredo/en/"/>
+  </url>
+  <url>
+    <loc>https://oredo-app.github.io/oredo/ar/privacy.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://oredo-app.github.io/oredo/ar/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oredo-app.github.io/oredo/en/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oredo-app.github.io/oredo/en/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://oredo-app.github.io/oredo/en/privacy.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://oredo-app.github.io/oredo/ar/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oredo-app.github.io/oredo/en/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oredo-app.github.io/oredo/en/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://oredo-app.github.io/oredo/ar/terms.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://oredo-app.github.io/oredo/ar/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oredo-app.github.io/oredo/en/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oredo-app.github.io/oredo/en/terms.html"/>
+  </url>
+  <url>
+    <loc>https://oredo-app.github.io/oredo/en/terms.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://oredo-app.github.io/oredo/ar/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oredo-app.github.io/oredo/en/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oredo-app.github.io/oredo/en/terms.html"/>
+  </url>
+</urlset>
