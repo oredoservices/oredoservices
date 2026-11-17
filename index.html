@@ -3,16 +3,484 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Oredo Service: delivery at your price in Shebin El Qanater</title>
-  <meta http-equiv="refresh" content="0; url=en/">
-  <link rel="canonical" href="https://oredo-app.github.io/oredo/en/">
-  <link rel="alternate" hreflang="ar" href="https://oredo-app.github.io/oredo/ar/">
-  <link rel="alternate" hreflang="en" href="https://oredo-app.github.io/oredo/en/">
-  <link rel="alternate" hreflang="x-default" href="https://oredo-app.github.io/oredo/en/">
+  <title>Oredo Services: delivery at your price in Shebin El Qanater</title>
+  <meta name="description" content="Order from any shop in Shebin El Qanater and set your own price. Pros nearby send offers; pick one, follow it and pay cash. Get Oredo Services on Google Play.">
+  <meta name="theme-color" content="#268543">
+  <link rel="canonical" href="https://oredoservices.github.io/oredoservices/en/">
+  <link rel="alternate" hreflang="ar" href="https://oredoservices.github.io/oredoservices/ar/">
+  <link rel="alternate" hreflang="en" href="https://oredoservices.github.io/oredoservices/en/">
+  <link rel="alternate" hreflang="x-default" href="https://oredoservices.github.io/oredoservices/en/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Oredo Services">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="ar_EG">
+  <meta property="og:url" content="https://oredoservices.github.io/oredoservices/en/">
+  <meta property="og:title" content="Oredo Services: delivery at your price in Shebin El Qanater">
+  <meta property="og:description" content="Order from any shop in Shebin El Qanater and set your own price. Pros nearby send offers; you pick one and pay cash.">
+  <meta property="og:image" content="https://oredoservices.github.io/oredoservices/assets/images/share/oredo-service-share-en.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Oredo Services: delivery at your price in Shebin El Qanater">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="assets/icons/favicon.ico" sizes="48x48">
   <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <link rel="manifest" href="assets/icons/site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&family=Readex+Pro:wght@300..700&display=swap">
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/home.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://oredoservices.github.io/oredoservices/#website",
+        "url": "https://oredoservices.github.io/oredoservices/en/",
+        "name": "Oredo Services",
+        "inLanguage": "en",
+        "publisher": {
+          "@id": "https://oredoservices.github.io/oredoservices/#owner"
+        }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://oredoservices.github.io/oredoservices/#owner",
+        "name": "Oredo Services"
+      },
+      {
+        "@type": "MobileApplication",
+        "@id": "https://oredoservices.github.io/oredoservices/#app-client",
+        "name": "Oredo Services",
+        "description": "Delivery from any shop in Shebin El Qanater at the price you set. Pros nearby send offers, and you pay cash.",
+        "operatingSystem": "Android",
+        "applicationCategory": "LifestyleApplication",
+        "url": "https://play.google.com/store/apps/details?id=com.oredo.app.client",
+        "image": "https://oredoservices.github.io/oredoservices/assets/images/brand/oredo-service-icon.svg",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "EGP"
+        },
+        "author": {
+          "@id": "https://oredoservices.github.io/oredoservices/#owner"
+        }
+      },
+      {
+        "@type": "MobileApplication",
+        "@id": "https://oredoservices.github.io/oredoservices/#app-pro",
+        "name": "Oredo Pro",
+        "description": "Delivery requests in Shebin El Qanater for tuk-tuk, motorcycle and bicycle riders. Accept the client's price or send yours, get paid in cash, with no commission during launch.",
+        "operatingSystem": "Android",
+        "applicationCategory": "BusinessApplication",
+        "url": "https://play.google.com/store/apps/details?id=com.oredo.app.pro",
+        "image": "https://oredoservices.github.io/oredoservices/assets/images/brand/oredo-service-pro-icon.svg",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "EGP"
+        },
+        "author": {
+          "@id": "https://oredoservices.github.io/oredoservices/#owner"
+        }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
-  <p><a href="en/">Oredo Service in English</a> · <a href="ar/" lang="ar" dir="rtl">Oredo Service بالعربية</a></p>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html" aria-label="Oredo Services home">
+        <img class="brand__logo" src="assets/images/brand/oredo-service-icon-small.svg" alt="" width="36" height="36">
+        <span class="brand__name" lang="en" dir="ltr">Oredo Services</span>
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="#services">Services</a>
+        <a href="#client">For clients</a>
+        <a href="#pro">For pros</a>
+        <a href="#trust">Safety</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="site-header__actions">
+        <a class="icon-button" href="ar/index.html" hreflang="ar" lang="ar">العربية</a>
+        <input class="theme-switch__input" type="checkbox" id="theme-switch">
+        <label class="icon-button theme-switch__label" for="theme-switch" title="Switch theme">
+          <span class="visually-hidden">Switch between light and dark mode</span>
+          <svg class="theme-switch__icon--moon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <svg class="theme-switch__icon--sun" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+        </label>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <span class="eyebrow eyebrow--client">Now live in Shebin El Qanater, Qalyubia, and coming to more areas soon</span>
+          <h1 class="hero__title" id="hero-title">Delivery in Shebin El Qanater, at your <span class="nowrap"><span class="price-tag">price</span>.</span></h1>
+          <p class="hero__lead">Name your price, and pros nearby send offers. Say what you need from any shop, from the pharmacy to the supermarket, and what you want to pay. Compare the offers, pick one, follow your order and pay cash.</p>
+          <div class="hero__actions">
+            <a class="button button--client" href="#client">
+              See how Oredo Services works
+              <svg class="icon--directional" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="button button--outline" href="#pro">Earn with Oredo Pro</a>
+          </div>
+        </div>
+
+        <figure class="offer-board" aria-label="Illustrative example of an Oredo Services order receiving offers">
+          <span class="offer-board__note" aria-hidden="true">You set the price</span>
+          <div class="offer-board__header">
+            <span class="offer-board__service">Delivery · Pilot</span>
+            <span class="offer-board__id mono">#OR-2417</span>
+          </div>
+          <ul class="offer-board__items">
+            <li><span>Pharmacy</span><span>2 items</span></li>
+            <li><span>Bakery</span><span>Fresh bread</span></li>
+            <li><span>Supermarket</span><span>5 items</span></li>
+          </ul>
+          <div class="offer-board__budget">
+            <span class="offer-board__label">Your price</span>
+            <span class="price-tag">40 EGP</span>
+          </div>
+          <ol class="offer-list">
+            <li class="offer">
+              <span class="offer__avatar" aria-hidden="true">M</span>
+              <span><span class="offer__name">Mahmoud</span><span class="offer__meta">★ 4.9 · Tuk-tuk</span></span>
+              <span class="offer__price">45 EGP</span>
+            </li>
+            <li class="offer offer--chosen">
+              <span class="offer__avatar" aria-hidden="true">K</span>
+              <span><span class="offer__name">Kareem</span><span class="offer__meta">★ 4.8 · Accepts your price</span></span>
+              <span class="offer__price">40 EGP</span>
+            </li>
+            <li class="offer">
+              <span class="offer__avatar" aria-hidden="true">Y</span>
+              <span><span class="offer__name">Youssef</span><span class="offer__meta">★ 4.7 · Bicycle</span></span>
+              <span class="offer__price">50 EGP</span>
+            </li>
+          </ol>
+          <p class="offer-board__status"><span class="offer-board__pulse" aria-hidden="true"></span>Receiving offers from pros nearby</p>
+        </figure>
+      </div>
+    </section>
+
+    <section class="promises" aria-labelledby="promises-title">
+      <div class="container">
+        <h2 class="visually-hidden" id="promises-title">Why Oredo Services</h2>
+        <ul class="promises__list">
+          <li class="promise">
+            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><path d="M7 7h.01"/></svg>
+            <h3>You set the price</h3>
+            <p>Start with your own number. Pros accept it or send a counter-offer, and you choose.</p>
+          </li>
+          <li class="promise">
+            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+            <h3>Documents reviewed first</h3>
+            <p>Every pro's national ID and criminal record certificate are reviewed before their first order.</p>
+          </li>
+          <li class="promise">
+            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+            <h3>Never left guessing</h3>
+            <p>Chat with or call your pro, and follow every step from the first offer until the job is done.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="coverage" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow eyebrow--client">Services and areas</span>
+          <h2 id="services-title">Delivery first. Close to home.</h2>
+          <p>Oredo Services starts with delivery from any shop in Shebin El Qanater. More services and cities will follow.</p>
+        </div>
+        <div class="coverage__grid">
+          <div class="coverage-panel">
+            <h3 class="coverage-panel__title">Services</h3>
+            <ul class="service-chips">
+              <li class="service-chip"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16.5 9.4 7.55 4.24"/><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><path d="M3.27 6.96 12 12.01l8.73-5.05M12 22.08V12"/></svg>Delivery</li>
+              <li class="service-chip"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/><path d="M19 15v4M17 17h4"/></svg>Cleaning<span class="service-chip__tag">Coming soon</span></li>
+              <li class="service-chip"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>Plumbing<span class="service-chip__tag">Coming soon</span></li>
+              <li class="service-chip service-chip--more"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>More on the way</li>
+            </ul>
+            <p class="coverage-panel__note">Delivery is live now. Cleaning and plumbing come later, and the app only shows what is available in your area.</p>
+          </div>
+          <div class="coverage-panel">
+            <h3 class="coverage-panel__title">Available now in</h3>
+            <ul class="city-list">
+              <li class="city"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span><strong>Shebin El Qanater</strong><span class="city__region">Qalyubia</span></span></li>
+            </ul>
+            <p class="coverage-panel__note">Benha and more cities are coming soon.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="app-section app-section--client" id="client" aria-labelledby="client-title">
+      <div class="container app-section__grid">
+        <div class="app-section__intro">
+          <div class="app-section__identity">
+            <img src="assets/images/brand/oredo-service-icon.svg" alt="" width="56" height="56">
+            <div>
+              <strong>Oredo Services</strong>
+              <span>The app for clients</span>
+            </div>
+          </div>
+          <h2 id="client-title">What you need, brought to your door.</h2>
+          <p>Get anything delivered from any shop in Shebin El Qanater: the pharmacy, the bakery, the supermarket, or all three in one order.</p>
+          <ul class="feature-list">
+            <li>Save your places on the map once, reuse them every time</li>
+            <li>Several shops in one order</li>
+            <li>Compare offers by price and rating</li>
+            <li>Chat in the app or call your pro directly</li>
+            <li>Pay in cash, no card needed</li>
+            <li>Rate every order to keep quality high</li>
+          </ul>
+        </div>
+
+        <div class="steps">
+          <h3 class="steps__title" id="client-steps-title">How to use Oredo Services</h3>
+          <ol class="steps__list" aria-labelledby="client-steps-title">
+            <li class="step">
+              <div>
+                <h4>Sign up with your phone</h4>
+                <p>Verify your number with a one-time SMS code and complete your profile in under a minute.</p>
+              </div>
+            </li>
+            <li class="step">
+              <div>
+                <h4>Add your place</h4>
+                <p>Pin your address in Shebin El Qanater on the map, so pros know exactly where to go.</p>
+              </div>
+            </li>
+            <li class="step">
+              <div>
+                <h4>Create your order</h4>
+                <p>Say what you need and from which shop, add your notes, and set the price you want to pay.</p>
+              </div>
+            </li>
+            <li class="step">
+              <div>
+                <h4>Pick the offer you like</h4>
+                <p>Pros nearby accept your price or propose theirs. Compare names, ratings and prices, then accept one.</p>
+              </div>
+            </li>
+            <li class="step">
+              <div>
+                <h4>Follow it live</h4>
+                <p>Chat with your pro or call them, and watch your order move from accepted to in progress to done.</p>
+              </div>
+            </li>
+            <li class="step">
+              <div>
+                <h4>Pay and rate</h4>
+                <p>Pay the agreed price in cash, plus the cost of any items bought for you, then rate your pro.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="app-section app-section--pro" id="pro" aria-labelledby="pro-title">
+      <div class="container app-section__grid">
+        <div class="app-section__intro">
+          <div class="app-section__identity">
+            <img src="assets/images/brand/oredo-service-pro-icon.svg" alt="" width="56" height="56">
+            <div>
+              <strong>Oredo Pro</strong>
+              <span>The app for service providers</span>
+            </div>
+          </div>
+          <h2 id="pro-title">Your skill. Your hours. Your price.</h2>
+          <p>Oredo Pro brings you delivery requests from clients in the parts of Shebin El Qanater you choose. Accept their price or send your own, and get paid in cash for every job, with no commission during launch.</p>
+          <ul class="feature-list">
+            <li>No commission during launch: the agreed price is all yours</li>
+            <li>No shifts: go online whenever it suits you</li>
+            <li>Accept the client's price or propose yours</li>
+            <li>Payment goes straight to you, in cash</li>
+            <li>Track your completed orders and earnings</li>
+            <li>Build a rating that wins you more orders</li>
+          </ul>
+        </div>
+
+        <div class="steps">
+          <h3 class="steps__title" id="pro-steps-title">How to start with Oredo Pro</h3>
+          <ol class="steps__list" aria-labelledby="pro-steps-title">
+            <li class="step">
+              <div>
+                <h4>Sign up with your phone</h4>
+                <p>Download Oredo Pro, verify your number and complete your profile with a clear photo of yourself.</p>
+              </div>
+            </li>
+            <li class="step">
+              <div>
+                <h4>Choose your areas</h4>
+                <p>Pick the parts of Shebin El Qanater you want to receive delivery requests from.</p>
+              </div>
+            </li>
+            <li class="step">
+              <div>
+                <h4>Upload your documents</h4>
+                <p>Your national ID (front and back) and criminal record certificate. If you deliver by tuk-tuk or motorcycle, add your vehicle licence and plate number.</p>
+              </div>
+            </li>
+            <li class="step">
+              <div>
+                <h4>Get approved</h4>
+                <p>Your documents are reviewed, and you get a notification as soon as your account is approved.</p>
+              </div>
+            </li>
+            <li class="step">
+              <div>
+                <h4>Send your offers</h4>
+                <p>New orders near you arrive as notifications. Accept the client's price or propose your own.</p>
+              </div>
+            </li>
+            <li class="step">
+              <div>
+                <h4>Do the job and get paid</h4>
+                <p>Do the work with care, keep any receipts, and collect your cash from the client.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust" id="trust" aria-labelledby="trust-title">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow eyebrow--client">Trust and safety</span>
+          <h2 id="trust-title">Built for trust on both sides of the order.</h2>
+          <p>Clients and pros deal with real, accountable people, and every order leaves a record.</p>
+        </div>
+        <ul class="trust__grid">
+          <li class="trust-card">
+            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+            <h3>Checked documents</h3>
+            <p>Pros can't receive orders until their ID and criminal record certificate are reviewed and approved.</p>
+          </li>
+          <li class="trust-card">
+            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <h3>Ratings both ways</h3>
+            <p>Clients and pros rate each other after every order, so good service rises to the top.</p>
+          </li>
+          <li class="trust-card">
+            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/><path d="m4.93 4.93 4.24 4.24M14.83 14.83l4.24 4.24M14.83 9.17l4.24-4.24M4.93 19.07l4.24-4.24"/></svg>
+            <h3>Support in the app</h3>
+            <p>Something went wrong? Open the Support chat from your account and talk to a real person.</p>
+          </li>
+          <li class="trust-card">
+            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+            <h3>Your data stays yours</h3>
+            <p>Your data is never sold, and you can delete your account at any time. <a href="en/privacy.html">Read the privacy policy</a>.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="download" id="download" aria-labelledby="download-title">
+      <div class="container">
+        <div class="download__panel">
+          <div class="download__copy">
+            <h2 id="download-title">Two apps. One platform.</h2>
+            <p>Get the app that fits you, or both. Your client and pro accounts stay separate.</p>
+          </div>
+          <article class="app-card">
+            <img src="assets/images/brand/oredo-service-icon.svg" alt="" width="52" height="52">
+            <h3>Oredo Services</h3>
+            <p>For anyone in Shebin El Qanater who wants something delivered at their price.</p>
+            <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.oredo.app.client" target="_blank" rel="noopener" aria-label="Download Oredo Services on Google Play">
+              <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3.5v17a1 1 0 0 0 1.5.86l14.5-8.5a1 1 0 0 0 0-1.72L6.5 2.64A1 1 0 0 0 5 3.5z"/></svg>
+              <span>Download the app on<strong>Google Play</strong></span>
+            </a>
+          </article>
+          <article class="app-card">
+            <img src="assets/images/brand/oredo-service-pro-icon.svg" alt="" width="52" height="52">
+            <h3>Oredo Pro</h3>
+            <p>For tuk-tuk, motorcycle and bicycle riders who want extra income on their own hours.</p>
+            <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.oredo.app.pro" target="_blank" rel="noopener" aria-label="Download Oredo Pro on Google Play">
+              <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3.5v17a1 1 0 0 0 1.5.86l14.5-8.5a1 1 0 0 0 0-1.72L6.5 2.64A1 1 0 0 0 5 3.5z"/></svg>
+              <span>Download the app on<strong>Google Play</strong></span>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="contact__card">
+          <div class="contact__copy">
+            <span class="eyebrow">Contact</span>
+            <h2 id="contact-title">Talk to the team behind Oredo Services.</h2>
+            <p>Oredo Services is run by independent Egyptian software engineers. Questions, feedback or partnership ideas: send an email and we will reply personally.</p>
+          </div>
+          <ul class="contact__channels">
+            <li class="contact-channel">
+              <span class="contact-channel__icon"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg></span>
+              <div class="contact-channel__body">
+                <h3>Email</h3>
+                <p class="contact-channel__value mono">oredo.agency@gmail.com</p>
+              </div>
+              <a class="button button--client contact-channel__action" href="mailto:oredo.agency@gmail.com">Send an email</a>
+            </li>
+            <li class="contact-channel">
+              <span class="contact-channel__icon"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/><path d="m4.93 4.93 4.24 4.24M14.83 14.83l4.24 4.24M14.83 9.17l4.24-4.24M4.93 19.07l4.24-4.24"/></svg></span>
+              <div class="contact-channel__body">
+                <h3>In-app support</h3>
+                <p>For anything about an order, open the Support chat from your account. It&#39;s the fastest way.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__grid">
+        <div class="site-footer__about">
+          <a class="brand" href="index.html">
+            <img class="brand__logo" src="assets/images/brand/oredo-service-icon-small.svg" alt="" width="36" height="36">
+            <span lang="en" dir="ltr">Oredo Services</span>
+          </a>
+          <p>Oredo Services and Oredo Pro are app names, not a company. Both apps are owned by Egyptian software engineers and are not affiliated with any particular organisation or company.</p>
+        </div>
+        <div>
+          <h2 class="site-footer__title">Apps</h2>
+          <ul class="site-footer__links">
+            <li><a href="#client">Oredo Services for clients</a></li>
+            <li><a href="#pro">Oredo Pro for providers</a></li>
+            <li><a href="#trust">Trust and safety</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="site-footer__title">Legal</h2>
+          <ul class="site-footer__links">
+            <li><a href="en/privacy.html">Privacy policy</a></li>
+            <li><a href="en/terms.html">Terms and conditions</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="site-footer__bottom">
+        <span>© 2026 Oredo Services</span>
+        <span>Made in the Arab Republic of Egypt <svg class="site-footer__flag" aria-hidden="true" viewBox="0 0 30 20" width="21" height="14"><rect width="30" height="20" fill="#000"/><rect width="30" height="13.34" fill="#fff"/><rect width="30" height="6.67" fill="#CE1126"/><path d="M15 7.6c-1 0-1.6.7-1.6 1.6v1.9l-1.3 1.3h5.8l-1.3-1.3V9.2c0-.9-.6-1.6-1.6-1.6z" fill="#C09300"/></svg></span>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

@@ -126,8 +126,14 @@
   color: var(--color-ink-soft);
 }
 
-.site-footer__heart {
-  color: var(--color-heart);
+.site-footer__flag {
+  display: inline-block;
+  width: 1.5em;
+  height: 1em;
+  margin-inline-start: 0.25em;
+  vertical-align: -0.15em;
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px var(--color-line);
 }
 
 @media (max-width: 60rem) {
