@@ -88,7 +88,7 @@ One person can hold one client account and one pro account. The two accounts are
 
 - Service type and work regions.
 - Verification documents: national ID (front and back) and criminal record certificate.
-- Vehicle information, only for services that need a vehicle: type, plate number, photo of the vehicle licence.
+- Vehicle information, only for services that need a vehicle: the vehicle type (motorcycle, tuk-tuk or bicycle). No plate number or licence photo is collected.
 - Verification status and review notes.
 - Work activity: orders, offers, prices, completed jobs, earnings summaries, ratings.
 - Messages in order chats and in Support chat.
@@ -201,6 +201,16 @@ All changes below were made in both the Arabic and English pages unless noted.
 | 13 | Contact in the header box | Email on the same line as "Support chat" | "or" + email on its own line |
 | 14 | Footer copyright | © 2026 Ahmed Habib | © 2026 Oredo Services / خدمات أوريدو |
 | 15 | Footer "Made in Egypt" line | ❤ | Egyptian flag (inline SVG) |
+| 16 | Pro vehicle information (Section 2) | "type, plate number, photo of the vehicle licence" | **Vehicle type only** (motorcycle, tuk-tuk or bicycle). No plate number or licence photo is collected |
+
+### Website text for change 16
+
+Section 2, "Pro data" list, the vehicle bullet:
+
+- English: `Vehicle information, only for services that need a vehicle: the vehicle type (motorcycle, tuk-tuk or bicycle). No plate number or licence photo is collected.`
+- Arabic: `بيانات المركبة، للخدمات التي تحتاج مركبة فقط: نوع المركبة (موتوسيكل أو توكتوك أو دراجة). لا نجمع رقم اللوحة ولا صورة الرخصة.`
+
+The version stays at `1` because the apps are not in production yet. Changes made before launch are folded into version 1.
 
 ---
 
