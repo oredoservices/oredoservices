@@ -126,8 +126,14 @@
       <div class="container hero__grid">
         <div class="hero__copy">
           <span class="eyebrow eyebrow--client">Now live in Shebin El Qanater, Qalyubia, and coming to more areas soon</span>
-          <h1 class="hero__title" id="hero-title">Delivery in Shebin El Qanater, at your <span class="nowrap"><span class="price-tag">price</span>.</span></h1>
-          <p class="hero__lead">Name your price, and pros nearby send offers. Say what you need from any shop and what you want to pay, compare the offers, pick one and pay cash. Need a plumber, an electrician or a cleaner? Describe the job and choose who does it.</p>
+          <h1 class="hero__title" id="hero-title">The services you need, <span class="nowrap"><span class="price-tag">near you</span>.</span></h1>
+          <p class="hero__lead">Order from any shop in Shebin El Qanater at your price, or get a plumber, an electrician or a cleaner to your door. Pros nearby respond, you check their ratings and choose who does the job, and you pay cash.</p>
+          <ul class="service-chips hero__services" aria-label="Available services">
+            <li class="service-chip"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16.5 9.4 7.55 4.24"/><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><path d="M3.27 6.96 12 12.01l8.73-5.05M12 22.08V12"/></svg>Delivery</li>
+            <li class="service-chip"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/><path d="M19 15v4M17 17h4"/></svg>Cleaning</li>
+            <li class="service-chip"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>Plumbing</li>
+            <li class="service-chip"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg>Electrical work</li>
+          </ul>
           <div class="hero__actions">
             <a class="button button--client" href="#client">
               See how Oredo Services works
@@ -137,39 +143,50 @@
           </div>
         </div>
 
-        <figure class="offer-board" aria-label="Illustrative example of an Oredo Services order receiving offers">
-          <span class="offer-board__note" aria-hidden="true">You set the price</span>
+        <figure class="offer-board" aria-label="Illustrative example of requests on Oredo Services for delivery, plumbing, electrical work and cleaning">
+          <span class="offer-board__note" aria-hidden="true">You choose who does the job</span>
           <div class="offer-board__header">
-            <span class="offer-board__service">Delivery · Pilot</span>
-            <span class="offer-board__id mono">#OR-2417</span>
+            <span class="offer-board__service">Your requests</span>
+            <span class="offer-board__id">Today</span>
           </div>
-          <ul class="offer-board__items">
-            <li><span>Pharmacy</span><span>2 items</span></li>
-            <li><span>Bakery</span><span>Fresh bread</span></li>
-            <li><span>Supermarket</span><span>5 items</span></li>
+          <ul class="request-list">
+            <li class="request-row">
+              <span class="request-row__icon"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16.5 9.4 7.55 4.24"/><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><path d="M3.27 6.96 12 12.01l8.73-5.05M12 22.08V12"/></svg></span>
+              <span><span class="request-row__title">Delivery · Pilot</span><span class="request-row__meta">Kareem accepted your price</span></span>
+              <span class="price-tag">40 EGP</span>
+            </li>
+            <li class="request-row request-row--open">
+              <div class="request-row__summary">
+                <span class="request-row__icon"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></span>
+                <span><span class="request-row__title">Plumbing · Maintenance</span><span class="request-row__meta">Leaking kitchen sink</span></span>
+                <span class="work-thumbs" aria-hidden="true"><span></span><span></span></span>
+              </div>
+              <ol class="offer-list">
+                <li class="offer">
+                  <span class="offer__avatar" aria-hidden="true">A</span>
+                  <span><span class="offer__name">Ali</span><span class="offer__meta">★ 4.7 · Since 2026</span></span>
+                  <span class="work-thumbs" aria-hidden="true"><span></span><span></span><span></span></span>
+                </li>
+                <li class="offer offer--chosen">
+                  <span class="offer__avatar" aria-hidden="true">H</span>
+                  <span><span class="offer__name">Hassan</span><span class="offer__meta">★ 4.9 · Since 2026</span></span>
+                  <span class="work-thumbs" aria-hidden="true"><span></span><span></span><span></span></span>
+                </li>
+              </ol>
+              <p class="request-row__note"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><path d="M7 7h.01"/></svg>Price agreed face to face after the inspection</p>
+            </li>
+            <li class="request-row">
+              <span class="request-row__icon"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg></span>
+              <span><span class="request-row__title">Electrical · Installation</span><span class="request-row__meta">New sockets, living room</span></span>
+              <span class="request-row__status">3 pros applied</span>
+            </li>
+            <li class="request-row">
+              <span class="request-row__icon"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/><path d="M19 15v4M17 17h4"/></svg></span>
+              <span><span class="request-row__title">Cleaning · Apartment</span><span class="request-row__meta">3 rooms and 2 bathrooms</span></span>
+              <span class="request-row__status">2 pros applied</span>
+            </li>
           </ul>
-          <div class="offer-board__budget">
-            <span class="offer-board__label">Your price</span>
-            <span class="price-tag">40 EGP</span>
-          </div>
-          <ol class="offer-list">
-            <li class="offer">
-              <span class="offer__avatar" aria-hidden="true">M</span>
-              <span><span class="offer__name">Mahmoud</span><span class="offer__meta">★ 4.9 · Tuk-tuk</span></span>
-              <span class="offer__price">45 EGP</span>
-            </li>
-            <li class="offer offer--chosen">
-              <span class="offer__avatar" aria-hidden="true">K</span>
-              <span><span class="offer__name">Kareem</span><span class="offer__meta">★ 4.8 · Accepts your price</span></span>
-              <span class="offer__price">40 EGP</span>
-            </li>
-            <li class="offer">
-              <span class="offer__avatar" aria-hidden="true">Y</span>
-              <span><span class="offer__name">Youssef</span><span class="offer__meta">★ 4.7 · Bicycle</span></span>
-              <span class="offer__price">50 EGP</span>
-            </li>
-          </ol>
-          <p class="offer-board__status"><span class="offer-board__pulse" aria-hidden="true"></span>Receiving offers from pros nearby</p>
+          <p class="offer-board__status"><span class="offer-board__pulse" aria-hidden="true"></span>Pros nearby are applying now</p>
         </figure>
       </div>
     </section>

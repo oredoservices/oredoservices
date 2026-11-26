@@ -126,8 +126,14 @@
       <div class="container hero__grid">
         <div class="hero__copy">
           <span class="eyebrow eyebrow--client">متاح دلوقتي في شبين القناطر، القليوبية، وسوف يُتاح في مناطق أخرى قريبًا</span>
-          <h1 class="hero__title" id="hero-title">توصيل طلبات في شبين القناطر، <span class="nowrap"><span class="price-tag">بسعرك</span>.</span></h1>
-          <p class="hero__lead">إنت اللي بتحدد السعر، والعروض بتجيلك. قول محتاج إيه من أي محل وعايز تدفع كام، قارن العروض، اختار، وادفع كاش. محتاج سباك أو فني كهرباء أو عامل نظافة؟ اوصف الشغل واختار مين ينفذه.</p>
+          <h1 class="hero__title" id="hero-title">الخدمات اللي محتاجها، <span class="nowrap"><span class="price-tag">قريب منك</span>.</span></h1>
+          <p class="hero__lead">اطلب من أي محل في شبين القناطر بسعرك، أو هات سباك أو فني كهرباء أو عامل نظافة لحد بابك. مقدمو الخدمة القريبين بيردوا عليك، تشوف تقييماتهم وتختار مين ينفذ الشغل، وتدفع كاش.</p>
+          <ul class="service-chips hero__services" aria-label="الخدمات المتاحة">
+            <li class="service-chip"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16.5 9.4 7.55 4.24"/><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><path d="M3.27 6.96 12 12.01l8.73-5.05M12 22.08V12"/></svg>توصيل طلبات</li>
+            <li class="service-chip"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/><path d="M19 15v4M17 17h4"/></svg>تنظيف</li>
+            <li class="service-chip"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>سباكة</li>
+            <li class="service-chip"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg>كهرباء</li>
+          </ul>
           <div class="hero__actions">
             <a class="button button--client" href="#client">
               اعرف خدمات أوريدو بتشتغل إزاي
@@ -137,39 +143,50 @@
           </div>
         </div>
 
-        <figure class="offer-board" aria-label="مثال توضيحي لطلب على خدمات أوريدو بتوصله عروض">
-          <span class="offer-board__note" aria-hidden="true">إنت اللي بتحدد السعر</span>
+        <figure class="offer-board" aria-label="مثال توضيحي لطلبات على خدمات أوريدو: توصيل وسباكة وكهرباء وتنظيف">
+          <span class="offer-board__note" aria-hidden="true">إنت اللي بتختار مين ينفذ</span>
           <div class="offer-board__header">
-            <span class="offer-board__service">توصيل · طيار</span>
-            <span class="offer-board__id mono" dir="ltr">#OR-2417</span>
+            <span class="offer-board__service">طلباتك</span>
+            <span class="offer-board__id">النهارده</span>
           </div>
-          <ul class="offer-board__items">
-            <li><span>صيدلية</span><span>صنفين</span></li>
-            <li><span>فرن</span><span>عيش طازة</span></li>
-            <li><span>سوبر ماركت</span><span>5 أصناف</span></li>
+          <ul class="request-list">
+            <li class="request-row">
+              <span class="request-row__icon"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16.5 9.4 7.55 4.24"/><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><path d="M3.27 6.96 12 12.01l8.73-5.05M12 22.08V12"/></svg></span>
+              <span><span class="request-row__title">توصيل · طيار</span><span class="request-row__meta">كريم وافق على سعرك</span></span>
+              <span class="price-tag">40 ج.م</span>
+            </li>
+            <li class="request-row request-row--open">
+              <div class="request-row__summary">
+                <span class="request-row__icon"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></span>
+                <span><span class="request-row__title">سباكة · صيانة</span><span class="request-row__meta">تسريب في حوض المطبخ</span></span>
+                <span class="work-thumbs" aria-hidden="true"><span></span><span></span></span>
+              </div>
+              <ol class="offer-list">
+                <li class="offer">
+                  <span class="offer__avatar" aria-hidden="true">ع</span>
+                  <span><span class="offer__name">علي</span><span class="offer__meta">★ 4.7 · من 2026</span></span>
+                  <span class="work-thumbs" aria-hidden="true"><span></span><span></span><span></span></span>
+                </li>
+                <li class="offer offer--chosen">
+                  <span class="offer__avatar" aria-hidden="true">ح</span>
+                  <span><span class="offer__name">حسن</span><span class="offer__meta">★ 4.9 · من 2026</span></span>
+                  <span class="work-thumbs" aria-hidden="true"><span></span><span></span><span></span></span>
+                </li>
+              </ol>
+              <p class="request-row__note"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><path d="M7 7h.01"/></svg>السعر بيتفق عليه وش لوش بعد المعاينة</p>
+            </li>
+            <li class="request-row">
+              <span class="request-row__icon"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg></span>
+              <span><span class="request-row__title">كهرباء · تأسيس</span><span class="request-row__meta">برايز جديدة للصالة</span></span>
+              <span class="request-row__status">3 فنيين اتقدموا</span>
+            </li>
+            <li class="request-row">
+              <span class="request-row__icon"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/><path d="M19 15v4M17 17h4"/></svg></span>
+              <span><span class="request-row__title">تنظيف · شقة</span><span class="request-row__meta">3 أوض وحمامين</span></span>
+              <span class="request-row__status">2 اتقدموا</span>
+            </li>
           </ul>
-          <div class="offer-board__budget">
-            <span class="offer-board__label">سعرك</span>
-            <span class="price-tag">40 ج.م</span>
-          </div>
-          <ol class="offer-list">
-            <li class="offer">
-              <span class="offer__avatar" aria-hidden="true">م</span>
-              <span><span class="offer__name">محمود</span><span class="offer__meta">★ 4.9 · توكتوك</span></span>
-              <span class="offer__price">45 ج.م</span>
-            </li>
-            <li class="offer offer--chosen">
-              <span class="offer__avatar" aria-hidden="true">ك</span>
-              <span><span class="offer__name">كريم</span><span class="offer__meta">★ 4.8 · وافق على سعرك</span></span>
-              <span class="offer__price">40 ج.م</span>
-            </li>
-            <li class="offer">
-              <span class="offer__avatar" aria-hidden="true">ي</span>
-              <span><span class="offer__name">يوسف</span><span class="offer__meta">★ 4.7 · عجلة</span></span>
-              <span class="offer__price">50 ج.م</span>
-            </li>
-          </ol>
-          <p class="offer-board__status"><span class="offer-board__pulse" aria-hidden="true"></span>بتوصلك عروض من مقدمي خدمة قريبين منك</p>
+          <p class="offer-board__status"><span class="offer-board__pulse" aria-hidden="true"></span>مقدمو خدمة قريبين بيتقدموا دلوقتي</p>
         </figure>
       </div>
     </section>
