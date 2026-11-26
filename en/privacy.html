@@ -20,7 +20,7 @@
   <meta property="og:image" content="https://oredoservices.github.io/oredoservices/assets/images/share/oredo-service-share-en.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Oredo Services: delivery at your price in Shebin El Qanater">
+  <meta property="og:image:alt" content="Oredo Services: delivery, plumbing, electrical work and cleaning in Shebin El Qanater">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="../assets/icons/favicon.ico" sizes="48x48">
   <link rel="icon" href="../assets/icons/favicon.svg" type="image/svg+xml">
@@ -117,7 +117,7 @@
         <section class="legal-section" id="section-1" aria-labelledby="section-1-title">
           <h2 id="section-1-title"><span class="legal-section__number mono">1</span>Who this policy covers</h2>
           <ul>
-            <li><strong>Clients</strong> — people who use the Oredo Services app to request services (such as delivery) from service providers.</li>
+            <li><strong>Clients</strong> — people who use the Oredo Services app to request services (such as delivery, plumbing, electrical work and cleaning) from service providers.</li>
             <li><strong>Pros</strong> — independent service providers who use the Oredo Pro app to receive and carry out requests.</li>
           </ul>
           <p>One person can have one client account and one pro account. Each account is separate, and its data is handled as described below.</p>
@@ -146,16 +146,19 @@
             <li><strong>Saved places</strong>: the address you type and the map location (latitude and longitude) of each place you save.</li>
             <li><strong>Service regions</strong> you choose and your default region.</li>
             <li><strong>Orders</strong>: requested items, store names, notes, pickup location, initial price, offers received, agreed price, status history and timestamps.</li>
+            <li><strong>On-site job requests</strong> (plumbing, electrical work and cleaning): for plumbing and electrical work, the request type (maintenance, installation or finishing) and your description; for cleaning, the place type (apartment, villa or duplex, office or shop, building stairs) and its details (cleaning type, number of rooms, bathrooms or floors, whether the place is furnished, its approximate area, whether the building entrance is included, and who brings the cleaning supplies) and optional notes. For all three: optional photos of the fault or the place (up to 6, depending on the service and request type), the chosen saved address, the pros who applied, status history and timestamps. These requests have no price in the app.</li>
             <li><strong>Ratings</strong> you give to pros, and ratings pros give to you.</li>
             <li><strong>Messages</strong> in order chats with the pro handling your order, and in Support chat with us.</li>
           </ul>
           <h3>Pro data</h3>
           <ul>
             <li><strong>Service type</strong> you provide and the <strong>regions</strong> you work in.</li>
-            <li><strong>Verification documents</strong>: photos of your national ID (front and back) and your criminal record certificate.</li>
+            <li><strong>Verification documents</strong>: photos of your national ID (front and back) and, only for services that require it, your criminal record certificate.</li>
             <li><strong>Vehicle information</strong> (only for services that need a vehicle): the vehicle type (motorcycle, tuk-tuk or bicycle). No plate number or licence photo is collected.</li>
+            <li><strong>Previous work</strong> (only for services that need it, such as plumbing and electrical work): 2 to 6 photos of past jobs and an optional short bio (up to 500 characters). The team reviews them before clients can see them.</li>
+            <li><strong>Availability</strong>: whether you are Online / Available. Delivery pros share their location while Online. Plumbers, electricians and cleaners share only an Available / Unavailable status, never their location.</li>
             <li><strong>Verification status</strong> and any review notes.</li>
-            <li><strong>Work activity</strong>: orders you receive, offers you send, prices, completed orders, earnings summaries and ratings.</li>
+            <li><strong>Work activity</strong>: orders you receive, offers you send, prices, completed orders, earnings summaries, ratings, and the orders you cancelled after being assigned (so that order is not offered to you again).</li>
             <li><strong>Messages</strong> in order chats with clients, and in Support chat with us.</li>
           </ul>
           <h3>Data collected automatically</h3>
@@ -170,8 +173,8 @@
             <table>
               <thead><tr><th scope="col">Permission</th><th scope="col">When it is used</th><th scope="col">What happens if you refuse</th></tr></thead>
               <tbody>
-              <tr><td><strong>Location</strong> (precise/approximate)</td><td>Only when you tap to detect your current location while adding a place, or when a feature needs your location. We do <strong>not</strong> track your location in the background.</td><td>You can still type your address manually.</td></tr>
-              <tr><td><strong>Camera / photos</strong></td><td>Only when you choose to take or pick a photo (profile photo, documents).</td><td>You cannot upload that photo.</td></tr>
+              <tr><td><strong>Location</strong> (precise/approximate)</td><td>Clients: only when you tap to detect your location. Delivery pros: while Online, the location is sent about every 2 minutes so they receive nearby orders, with a visible notification. Plumbers, electricians and cleaners: <strong>never</strong>. Nothing is collected while offline.</td><td>You can still type your address manually. A delivery pro cannot go Online.</td></tr>
+              <tr><td><strong>Camera / photos</strong></td><td>Only when you pick or take a photo, for example the profile photo, documents, request photos or previous-work photos.</td><td>You cannot upload that photo.</td></tr>
               <tr><td><strong>Notifications</strong></td><td>To alert you about orders, offers, messages and account updates.</td><td>You will not receive alerts; the app still works.</td></tr>
               <tr><td><strong>SMS code auto-fill</strong></td><td>Android shows you the verification SMS and asks your permission before the app reads that single message to fill the code. We never read your other messages.</td><td>You type the code manually.</td></tr>
               </tbody>
@@ -188,11 +191,14 @@
               <tr><td>Create and secure your account, verify your phone number, and keep one active session</td><td>Phone, account data, session data</td></tr>
               <tr><td>Confirm you meet the minimum age (16)</td><td>Date of birth</td></tr>
               <tr><td>Verify pros before they can receive orders, to protect clients</td><td>Pro verification documents, vehicle information</td></tr>
-              <tr><td>Connect clients with pros in the right region, create and manage orders and offers</td><td>Regions, places, order data, service type</td></tr>
+              <tr><td>Connect clients with pros in the right region, create and manage orders and offers</td><td>Regions, places, order data, service type, availability status</td></tr>
+              <tr><td>Help clients choose a pro for an on-site job</td><td>The pro's public profile: name, photo, rating, member-since date, and the bio and previous-work photos where the service uses them</td></tr>
+              <tr><td>Give the pro a clear idea of the job before the inspection</td><td>The request type, details, description and photos</td></tr>
+              <tr><td>Avoid offering an order again to a pro who cancelled it</td><td>The list of pros who cancelled that order</td></tr>
               <tr><td>Let the client and pro of the same order communicate and find each other</td><td>Name, photo, phone number, order location, chat messages</td></tr>
               <tr><td>Show ratings so users can make informed choices</td><td>Ratings</td></tr>
               <tr><td>Send notifications you have enabled</td><td>Push token, notification preferences, language</td></tr>
-              <tr><td>Provide customer support and resolve disputes</td><td>Support chat, order history, order chat</td></tr>
+              <tr><td>Provide customer support and resolve disputes, including cancelling an order by the team</td><td>Support chat, order history, order chat, the cancellation reason</td></tr>
               <tr><td>Keep the platform safe, detect fraud and abuse, enforce our Terms</td><td>Account data, activity, integrity signals</td></tr>
               <tr><td>Fix errors and improve the apps</td><td>Crash reports, aggregated analytics</td></tr>
               <tr><td>Comply with Egyptian law and lawful requests from authorities</td><td>Only the data the request legally requires</td></tr>
@@ -212,8 +218,12 @@
             <li>the order details, including the pickup location and address.</li>
           </ul>
           <p>Pros can never see clients' saved places that are not part of their order. Clients can never see pros' verification documents.</p>
+          <h3>Pros an open request was sent to</h3>
+          <p>Before a pro is assigned, the pros in the request's region who were sent it see your name and photo, the region, the address and the request details (for on-site jobs: the type, details, description and photos).</p>
+          <h3>Clients choosing a pro for an on-site job</h3>
+          <p>The pro's public profile (name, photo, rating, member-since date, and the approved bio and previous-work photos where the service uses them) is visible to the client when the pro applies to their request.</p>
           <h3>The team</h3>
-          <p>Only the team behind the apps, or a person the team authorises to help run the apps, can access data, and only when needed: reviewing pro documents, answering support requests, or investigating a reported problem.</p>
+          <p>Only the team behind the apps, or a person the team authorises to help run the apps, can access data, and only when needed: reviewing pro documents, answering support requests, cancelling an order when there is a problem, or investigating a reported problem. Every order cancellation by the team is recorded with its reason.</p>
           <h3>Service providers that process data for us</h3>
           <p>We use <strong>Google Firebase</strong> (Google LLC) to host and run the apps: sign-in, database, file storage, notifications, crash reporting, analytics and app integrity. Google processes this data on our behalf under its own security and privacy commitments, and may store it on servers outside Egypt.</p>
           <h3>What we never do</h3>
@@ -247,9 +257,9 @@
           <p>You can delete your account at any time from <strong>Account → Delete account</strong> in the app. Deletion is not possible while you have an open order; finish or cancel it first.</p>
           <p>When you delete an account, the following is <strong>deleted automatically</strong>:</p>
           <ul>
-            <li>your profile name, phone number and profile photo, which are removed from your public profile;</li>
-            <li>all photos and files you uploaded (profile photo, ID photos, criminal record certificate);</li>
-            <li>your saved places (clients) or your verification record and pending offers (pros);</li>
+            <li>your name, phone number, profile photo, bio and previous-work photos, which are removed from your public profile;</li>
+            <li>all photos and files you uploaded (profile photo, ID photos, criminal record certificate, request photos and previous-work photos);</li>
+            <li>your saved places (clients) or your verification record, availability status and pending offers or applications (pros);</li>
             <li>your notifications and your Support chat;</li>
             <li>your device tokens, so you stop receiving notifications.</li>
           </ul>
@@ -306,6 +316,8 @@
             <li><a href="index.html#client">Oredo Services for clients</a></li>
             <li><a href="index.html#pro">Oredo Pro for providers</a></li>
             <li><a href="index.html#trust">Trust and safety</a></li>
+            <li><a href="https://play.google.com/store/apps/details?id=com.oredo.app.client" target="_blank" rel="noopener">Get Oredo Services on Google Play</a></li>
+            <li><a href="https://play.google.com/store/apps/details?id=com.oredo.app.pro" target="_blank" rel="noopener">Get Oredo Pro on Google Play</a></li>
           </ul>
         </div>
         <div>
